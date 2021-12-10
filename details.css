@@ -1,0 +1,116 @@
+body {
+	margin: 0;
+}
+
+#details {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+}
+
+.description {
+	flex: 1;
+	line-height: 1.5;
+}
+
+.image {
+	flex: 2;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+img {
+	width: 100%;
+	margin-top: -20%;
+}
+
+.instructions {
+	text-align: justify;
+}
+
+h1 {
+	padding-left: 10%;
+	background-color: #001f3d;
+	margin: 0;
+	color: white;
+	height: 60px;
+	line-height: 2;
+	margin-bottom: 20px;
+}
+h2{
+	margin-top: 0;
+}
+
+#footer {
+	background-color: #acacac;
+	color: white;
+	width: 80%;
+	padding: 0 10%;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social {
+	padding-left: 30%;
+	display: flex;
+	margin-top: 24px;
+	justify-content: flex-end;
+}
+
+
+h4 {
+	margin: 0;
+	padding-top: 8px;
+	margin-right: 12px;
+}
+
+.fa {
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 12px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook-square {
+	color: white;
+	font-size: 24px !important;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 24px !important;
+}
+ul.breadcrumb {
+	width: 80%;
+	margin:auto;
+    padding: 0;
+	margin-bottom: 20px;
+	
+  }
+  ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+	
+  }
+  ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+	color: #0275d8;
+	text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+	color: #01447e;
+	text-decoration: underline;
+  }

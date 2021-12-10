@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin:auto;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+}
+img{
+    width: 100%;
+}
+li{
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 2px 1px #ACACAC;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+}
+button{
+    background-color: #045174;
+   padding: 5px;
+    width:80%;
+    margin:auto;
+    color: white;
+    border-radius:5px;
+}
+h1 {
+    padding-left: 10%;
+    background-color: #001f3d;
+    margin: 0;
+    color:white;
+    height: 60px;
+    line-height: 2;
+}
+ h2{
+   margin-left: 10%;
+}
+
+#footer {
+	background-color: #acacac;
+	color: white;
+	width: 80%;
+	padding: 0 10%;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social {
+	padding-left: 30%;
+	display: flex;
+	margin-top: 24px;
+	justify-content: flex-end;
+}
+
+
+h4 {
+	margin: 0;
+	padding-top: 8px;
+	margin-right: 12px;
+}
+
+.fa {
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 12px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook-square {
+	color: white;
+	font-size: 24px !important;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 24px !important;
+}
