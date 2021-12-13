@@ -10,6 +10,7 @@ ul{
     justify-content: space-between;
     list-style-type: none;
     padding-left: 0;
+    padding-bottom: 200px;
 }
 img{
     width: 100%;
@@ -87,4 +88,20 @@ h4 {
 .fa-instagram {
     color: white;
     font-size: 24px !important;
+}
+@media (max-width:500px) {
+    li {
+        width:100%;
+    }
+    #footer{
+        display:block;
+    }
+    .social{
+        display:block;
+        padding-left:0;
+    }
+    .fa-facebook-square{
+        margin-left: 0; 
+    }
+
 }
